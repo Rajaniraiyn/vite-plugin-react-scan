@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // Enable latest features
+    "lib": ["ESNext", "DOM"],
+    "target": "ES2015",
+    "module": "NodeNext",
+    "moduleDetection": "force",
+    "allowJs": true,
+  
+    // Best practices
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Some stricter flags (disabled by default)
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noPropertyAccessFromIndexSignature": false,
+
+    "outDir": "dist",
+    "declaration": true
+  },
+  "files": ["index.ts"]
+}

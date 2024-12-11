@@ -1,0 +1,36 @@
+{
+  "name": "vite-plugin-react-scan",
+  "module": "./dist/index.js",
+  "version": "1.0.0",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "author": {
+    "name": "Rajaniraiyn",
+    "email": "rajaniraiyn@gmail.com",
+    "url": "https://rajaniraiyn.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rajaniraiyn/vite-plugin-react-scan"
+  },
+  "type": "module",
+  "files": [
+    "dist",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "prepublishOnly": "bun run build"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "typescript": "*",
+    "vite": "*"
+  },
+  "dependencies": {}
+}
