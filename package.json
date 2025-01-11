@@ -32,5 +32,13 @@
     "typescript": "*",
     "vite": "*"
   },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    },
+    "vite": {
+      "optional": false
+    }
+  },
   "dependencies": {}
 }
