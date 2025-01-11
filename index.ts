@@ -12,7 +12,7 @@ export default function vitePluginReactScan(): PluginOption {
                 type: 'module',
                 src: "https://unpkg.com/react-scan/dist/auto.global.js"
               },
-              injectTo: 'body'
+              injectTo: 'head-prepend'
             }
           ]
         };
